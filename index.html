@@ -200,7 +200,10 @@
   .stats{
     margin-top:70px;
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:1fr;
+    max-width:420px;
+    margin-left:auto;
+    margin-right:auto;
     border-top:1px solid var(--line);
     border-bottom:1px solid var(--line);
   }
@@ -224,10 +227,6 @@
     color:var(--navy);
     margin-top:6px;
     line-height:1.5;
-  }
-  @media(max-width:700px){
-    .stats{grid-template-columns:repeat(2,1fr);}
-    .stats div:nth-child(3){border-left:none;}
   }
 
   /* ---------- SECTION HEADERS ---------- */
@@ -524,18 +523,6 @@
         <div class="stat-num">$10M</div>
         <div class="stat-label">Secured in Funding</div>
       </div>
-      <div>
-        <div class="stat-num">3</div>
-        <div class="stat-label">Federal Agencies<br>Served as Reviewer</div>
-      </div>
-      <div>
-        <div class="stat-num">19</div>
-        <div class="stat-label">States in Risk<br>&amp; Compliance Portfolio</div>
-      </div>
-      <div>
-        <div class="stat-num">47</div>
-        <div class="stat-label">Families Housed via<br>Stability Program</div>
-      </div>
     </div>
   </div>
   <div class="wrap">
@@ -561,7 +548,6 @@
       <h2>A decade of connecting vision with resources.</h2>
       <p>Candace Scroggins is a strategic philanthropy and community development leader with more than a decade of experience helping nonprofit organizations, community development corporations, healthcare providers, educational institutions, and small businesses secure funding, strengthen organizational capacity, and create lasting community impact.</p>
       <p>As Founder and Principal Consultant of Distinct Harmony Consulting, Candace has secured more than $10 million in federal, state, corporate, and foundation funding to support initiatives focused on family stability, affordable housing, behavioral health, youth development, economic mobility, community revitalization, and health equity. She partners with organizations to develop comprehensive fundraising strategies, cultivate philanthropic partnerships, design innovative community programs, and implement sustainable solutions that address complex social challenges.</p>
-      <p>In addition to her consulting work, Candace serves as Risk Manager for the Center for Employment Opportunities, leading multi-state compliance and insurance initiatives, strategic procurement, governance, and enterprise risk management across 19 states — a background in philanthropy, behavioral health, nonprofit leadership, and organizational strategy that she brings to every client engagement.</p>
       <div class="credentials-row">
         <span class="cred-chip">MBA — University of Maryland Global Campus</span>
         <span class="cred-chip">BS Sociology — Coppin State University</span>
